@@ -54,5 +54,6 @@ Note that there are some patterns. For example, a lot of red archs are "paralel"
  |   |   |   |    |    |    |    |     |     |     |      |      |      |       | 21845 | 43690 | 87380 | 174760 |
  |   |   |   |    |    |    |    |     |     |     |      |      |      |       |       |       | 87381 | 174762 |
 
+### If the table is not rendering, see the Raw file
    
 It is really easy to see the pattern in this table: all the red links represent either the 2^n path or a similar one. I don't quite understand why do chains star with 20+1, 84+1, 340+1 and so on but no chains start with 10+1, 42+1 or 170+1.

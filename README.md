@@ -37,14 +37,14 @@ In order to execute the project, first you have to calculate all the nodes you'l
 
 Finally, the Processing file takes those outputs (the CSV files) and draws something like this:
 
-![Screenshot of the Program](https://octodex.github.com/images/yaktocat.png)
+![Screenshot of the Program](https://github.com/algc19/Collatz-Conjecture-Representation/blob/master/Captura.JPG)
 
 In this visual representation, every arch (link) is connecting two nodes (numbers of the number line). The red lines represent the relation between n and 2n and the green ones the relation between n and 3n+1.
 
 Note that there are some patterns. For example, a lot of red archs are "paralel" to each other, or following similar paths. That is because there are some long chains that are generated really quickly (as we are only checking the first 500 nodes following node 1). These are some of those chains:
 
  | 1 | 2 | 4 |  8 | 16 | 32 | 64 | 128 | 256 | 512 | 1024 | 2048 | 4096 |  8192 | 16384 | 32768 | 65536 | 131072 |
- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---  |
+ | - | - | - | -- | -- | -- | -- | --- | --- | --- | ---- | ---- | ---- | ----- | ----- | ----- | ----- | ------ |
  |   |   | 5 | 10 | 20 | 40 | 80 | 160 | 320 | 640 | 1280 | 2560 | 5120 | 10240 | 20480 | 40960 | 81920 | 163840 |
  |   |   |   |    | 21 | 42 | 84 | 168 | 336 | 672 | 1344 | 2688 | 5376 | 10752 | 21504 | 43008 | 86016 | 172032 |
  |   |   |   |    |    |    | 85 | 170 | 340 | 680 | 1360 | 2720 | 5440 | 10880 | 21760 | 43520 | 87040 | 174080 |
